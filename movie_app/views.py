@@ -8,7 +8,8 @@ from .serializers import (
     MoviesSerializer,
     MovieDetailSerializer,
     ReviewsSerializer,
-    ReviewDetailSerializer
+    ReviewDetailSerializer,
+    MoviesReviewsSerializer
 )
 # Create your views here.
 
@@ -56,3 +57,9 @@ def review_detail_api_view(request, id):
         return Response({'error': 'Review not found'}, status=status.HTTP_404_NOT_FOUND)
     data = ReviewDetailSerializer(review).data
     return Response(data=data, status=status.HTTP_200_OK)
+
+@api_view(http_method_names=['GET'])
+def movies_reviews_list_api_view(request):
+    movies = Movie.objects.all()
+    data = MoviesReviewsSerializer(movies, many=True).data
+    return Response(data=data)
