@@ -49,3 +49,34 @@ class MoviesReviewsSerializer(serializers.ModelSerializer):
             reviews = movie.reviews.all()
             total = sum([review.stars for review in reviews if review.stars is not None])
             return total / movie.reviews.count()
+
+#Validators
+class DirectorValidateSerializer(serializers.Serializer):
+    name = serializers.CharField(min_length=3, max_length=55)
+
+
+class MovieValidateSerializer(serializers.Serializer):
+    title = serializers.CharField(min_length=2, max_length=50)
+    description = serializers.CharField(max_length=255)
+    duration = serializers.FloatField(min_value=0)
+    director = serializers.IntegerField()
+
+    def validate(self, director):
+        try:
+            Director.objects.get(id = director)
+        except Director.DoesNotExist:
+            raise serializers.ValidationError('Director not found')
+        return director
+
+
+class ReviewValidateSerializer(serializers.Serializer):
+    text = serializers.CharField(max_length=255)
+    stars = serializers.IntegerField(min_value=1, max_value=5)
+    movie = serializers.IntegerField()
+
+    def validate_movie(self, movie):
+        try:
+            Movie.objects.get(id=movie)
+        except Movie.DoesNotExist:
+            raise serializers.ValidationError('Movie not found')
+        return movie
