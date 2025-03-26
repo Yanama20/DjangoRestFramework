@@ -1,0 +1,59 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Django
+*.log
+*.pot
+*.py[cod]
+db.sqlite3
+*.sqlite3
+staticfiles/
+media/
+*.log
+
+# pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.hypothesis/
+
+# MySQL
+*.sql
+
+# virtualenv
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest cache
+.cache/
+
+# Django migrations
+migrations/
+
+# local environment variables
+.env
