@@ -1,0 +1,586 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-03-08T14:10:16.904Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Director object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-03-08T14:11:22.937Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Grason",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-03-08T14:11:33.960Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Havoc",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-03-08T14:12:11.530Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "The Strongest",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-03-08T14:12:51.463Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Hunger",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-03-08T14:13:44.428Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Master of Pupets",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-03-08T14:14:13.422Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Review object (1)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-03-08T14:14:29.895Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Review object (2)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-03-08T14:14:50.953Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Review object (3)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-03-11T21:13:40.442Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Review object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2025-03-11T21:13:52.264Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Review object (2)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2025-03-11T21:14:02.352Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Review object (3)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2025-03-11T21:14:15.772Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Review object (3)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2025-03-11T21:14:19.613Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Review object (2)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2025-03-11T21:14:23.347Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Review object (1)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2025-03-11T21:14:38.545Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Review object (4)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2025-03-11T21:59:59.457Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "not good",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2025-03-11T22:00:05.633Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "5 stars",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2025-03-11T22:00:10.656Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Not nice",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2025-03-11T22:00:14.453Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "not good",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2025-03-11T22:00:17.788Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "nice",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2025-03-11T22:04:12.086Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "nice",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2025-03-11T22:04:12.320Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "nice",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2025-03-11T22:04:14.544Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Not nice",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2025-03-11T22:04:15.942Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "5 stars",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2025-03-11T22:04:17.785Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "not good",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2025-03-11T22:04:29.714Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "not good",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Stars\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2025-03-22T20:48:39.428Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Aman",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2025-03-26T14:25:18.709Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "Aman",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2025-03-26T14:27:28.451Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Aman",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2025-03-26T14:29:36.018Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "Aman",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2025-03-26T14:55:14.983Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "Aman",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2025-03-26T18:29:58.124Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Master of Pupets",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Duration\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2025-03-26T18:30:03.788Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Hunger",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Duration\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2025-03-26T18:30:09.834Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "The Strongest",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Duration\"]}}]"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$S4MQL0BOsTQ0nNprkEjTDE$cQOe/gt4KZ90ByMMWTehWh7d+KlXUNdrekZ0P8hBw6s=",
+      "last_login": "2025-03-22T20:37:09.086Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-03-08T13:44:32.582Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$RtRWFkwHukcNOzEtcpuYaP$s1ocCwKRmj9I47nGDaxbtCSC+bPu6ItSaa3da05oMHs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Aman",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-03-26T14:29:42Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "88iwvkhi93j4il4ua127dzn60x690kcy",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGlm2iVlCSc8ZrP0ZB5AjxUmFuDuJlAKaKea9mbdJuMwlLU2nNIi5GG8Ovx0hP7VuQB5Y76Plsc7TQHZT7E6bvY2ir-vu_h0UbGVdB1amqOqkU2XpUSIKBGJ3jkKZGJyg8onAS0eQfciAR1gju56QzOcLRdU6YA:1tw5af:Ip39hK9tUULqwRazi5ndF5VmcJdreyALaVJPWUximOE",
+      "expire_date": "2025-04-05T20:37:09.172Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "e8vi5kj2ej6jj1e896csfx2krmuyixzx",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQRO_iGlm2iVlCSc8ZrP0ZB5AjxUmFuDuJlAKaKea9mbdJuMwlLU2nNIi5GG8Ovx0hP7VuQB5Y76Plsc7TQHZT7E6bvY2ir-vu_h0UbGVdB1amqOqkU2XpUSIKBGJ3jkKZGJyg8onAS0eQfciAR1gju56QzOcLRdU6YA:1tquoZ:scSITnqd48pKcwkYlgHlNAVeHrQ9ppi2hI3sYgzNemc",
+      "expire_date": "2025-03-22T14:06:07.118Z"
+    }
+  },
+  {
+    "model": "movie_app.director",
+    "pk": 1,
+    "fields": { "name": "Grimm Brothers" }
+  },
+  { "model": "movie_app.director", "pk": 2, "fields": { "name": "Grason" } },
+  { "model": "movie_app.director", "pk": 3, "fields": { "name": "Havoc" } },
+  {
+    "model": "movie_app.director",
+    "pk": 4,
+    "fields": { "name": "Julian Murphy" }
+  },
+  {
+    "model": "movie_app.director",
+    "pk": 7,
+    "fields": { "name": "Artur Conan Doil" }
+  },
+  {
+    "model": "movie_app.movie",
+    "pk": 1,
+    "fields": {
+      "title": "The Strongest",
+      "description": "qweqwe",
+      "duration": 2.5,
+      "director": 2
+    }
+  },
+  {
+    "model": "movie_app.movie",
+    "pk": 2,
+    "fields": {
+      "title": "Hunger",
+      "description": "asdf",
+      "duration": 1.6,
+      "director": 1
+    }
+  },
+  {
+    "model": "movie_app.movie",
+    "pk": 3,
+    "fields": {
+      "title": "Master of Pupets",
+      "description": "hghjk",
+      "duration": 2.5,
+      "director": 2
+    }
+  },
+  {
+    "model": "movie_app.review",
+    "pk": 1,
+    "fields": { "text": "nice", "movie": 1, "stars": 4 }
+  },
+  {
+    "model": "movie_app.review",
+    "pk": 2,
+    "fields": { "text": "Not nice", "movie": 3, "stars": 1 }
+  },
+  {
+    "model": "movie_app.review",
+    "pk": 3,
+    "fields": { "text": "5 stars", "movie": 2, "stars": 5 }
+  },
+  {
+    "model": "movie_app.review",
+    "pk": 4,
+    "fields": { "text": "not good", "movie": 1, "stars": 1 }
+  },
+  {
+    "model": "users.confirmationcode",
+    "pk": 1,
+    "fields": { "user": 6, "code": "476316" }
+  },
+  {
+    "model": "authtoken.token",
+    "pk": "37160834ace61ae1948086059007db0d8e816b1b",
+    "fields": { "user": 1, "created": "2025-03-22T20:36:16.955Z" }
+  }
+]
